@@ -1,2 +1,2 @@
 # License-Plate-Recognition
-using opencv, tesseractocr, c++
+using opencv, tesseract ocr, c++
