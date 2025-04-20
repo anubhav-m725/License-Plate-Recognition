@@ -2,17 +2,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "License Plate Recognition",
+            "label": "Build License Plate Project",
             "type": "shell",
             "command": "cmd.exe",
             "args": [
                 "/C",
-                "\"\"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvars64.bat\" && cl\"",
+                "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cl",
                 "/EHsc",
                 "/MP",
                 "main.cpp",
+                "/Fe:main.exe",
+                "/std:c++17",
                 "/I",
                 "C:/vcpkg/installed/x64-windows/include",
+                "/I",
+                "C:/vcpkg/installed/x64-windows/include/opencv4",
                 "/link",
                 "/LIBPATH:C:/vcpkg/installed/x64-windows/lib",
                 "opencv_video4.lib",

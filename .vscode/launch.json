@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "License Plate Recognition",
+            "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/main.exe",
@@ -10,8 +10,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "console": "integratedTerminal",
-            "preLaunchTask": "License Plate Recognition",
+            "console": "externalTerminal"
         }
     ]
 }
