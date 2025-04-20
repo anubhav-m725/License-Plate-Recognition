@@ -53,4 +53,4 @@ This project detects license plates in images using OpenCV and extracts their te
 ## Author
 
 Made with guidance and curiosity as a first-year student project.  
-Feel free to fork, suggest improvements, or just say hi! 😊
+Feel free to fork, suggest improvements, or just say hi!
